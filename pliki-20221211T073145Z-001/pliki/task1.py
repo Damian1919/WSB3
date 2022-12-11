@@ -24,7 +24,8 @@ print (round(avarage,3))
 x = 0
 for i in range(1, len(content)):
     content[i][4] = content[i][4].replace('\n', '')
-    if content[i][3] == 'k' and content[i][4] == 't' :
+    if content[i][3] == 'k' and content[i][4] == 't':
             x += 1
-print(x)
+def fizzBuzz (x):
+    if (x%5 == 0):
 
