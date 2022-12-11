@@ -21,3 +21,10 @@ print (round(avarage,3))
 
 # ZADANIE 3
 
+x = 0
+for i in range(1, len(content)):
+    content[i][4] = content[i][4].replace('\n', '')
+    if content[i][3] == 'k' and content[i][4] == 't' :
+            x += 1
+print(x)
+
